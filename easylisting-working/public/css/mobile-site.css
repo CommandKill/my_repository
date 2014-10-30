@@ -1,0 +1,113 @@
+@import url('mobile-nav.css');
+@import url('plugins/font-awesome/font-awesome.min.css');
+@import url('plugins/font-boon/boon.css');
+@import url('plugins/font-roboto/roboto.css');
+#page-content {
+  min-height: 250px;
+}
+body {
+    background-color: #fff;
+    color: #5a5a5a;
+    font-family: "Boon-0.6", 'Roboto', sans-serif;
+}
+/*
+|--------------------------------------------------------------------------
+| Social icons
+|--------------------------------------------------------------------------
+*/
+.social-icon {display: block;width: 32px;height: 32px;text-indent: -9999px;float: left;}
+.social-icon.icon-facebook {background: url('../../img/icons/facebook-variation.png') 0 0 no-repeat;}
+.social-icon.icon-twitter {background: url('../../img/icons/twitter-variation.png') 0 0 no-repeat;}
+.social-icon.icon-gplus {background: url('../../img/icons/gplus-variation2.png') 0 0 no-repeat;}
+.social-icon.icon-youtube {background: url('../../img/icons/youtube.png') 0 0 no-repeat;}
+.social-icon.icon-email {background: url('../../img/icons/email-variation.png') 0 0 no-repeat;}
+
+/*
+|--------------------------------------------------------------------------
+| Footer top
+|--------------------------------------------------------------------------
+*/
+#page-footer .inner {
+  display: table;
+  width: 100%;
+}
+#page-footer .inner h3 {
+  color: #2a2a2a;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#page-footer .inner #footer-main {
+  background-color: #f3f3f3;
+  padding: 0;
+}
+#page-footer .inner #footer-copyright {
+  background-color: #5a5a5a;
+  color: #fff;
+  display: table;
+  padding: 10px 0;
+  width: 100%;
+}
+#page-footer .inner #footer-copyright a {
+  color: #fff;
+}
+#page-footer .inner #footer-copyright a:hover {
+  color: #1396e2;
+}
+#page-footer .inner .property:last-child {
+  margin-bottom: 0 !important;
+}
+#page-footer .inner .property-thumbnail {
+  background-color: #1396e2;
+  float: left;
+  height: 60px;
+  overflow: hidden;
+}
+#page-footer .inner .property-thumbnail:hover img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+#page-footer .inner .property-thumbnail img {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  opacity: 0.2;
+  width: 100%;
+}
+#page-footer .information-box > li {
+  display: block;
+  margin: 2px 2px 2px 0;
+  padding-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+#page-footer .information-box > li .social-icon {
+  margin-right: 6px;
+}
+#page-footer .information-box > li a {
+  display: block;
+  overflow: hidden;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Scroll to top
+|--------------------------------------------------------------------------
+*/
+.scroll-to-top {
+  position: fixed;
+  background:url('../img/scroll-to-top.png') no-repeat;
+  cursor: pointer;
+  bottom: 60px;
+  right: 20px;
+  width:55px;
+  height: 55px;
+  padding-right: 1em;
+  display: none;
+  z-index: 999;
+  text-indent: -10000px;
+}

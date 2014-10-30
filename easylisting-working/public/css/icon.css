@@ -1,0 +1,18 @@
+/* Custom icons */
+.oo-icon {display: block;width: 32px;height: 32px;text-indent: -9999px;float: left;position:relative;}
+.oo-icon.icon-buyingguide {background: url('../../img/icons/icon-buyingguide@1x.png') 0 0 no-repeat;}
+.oo-icon.icon-inspection {background: url('../../img/icons/icon-inspection@1x.png') 0 0 no-repeat;}
+.oo-icon.icon-insurance {background: url('../../img/icons/icon-insurance@1x.png') 0 0 no-repeat;}
+
+.oo-icon-mini {display: block;width: 16px;height: 16px;text-indent: -9999px;float: left;position:relative;}
+.oo-icon-mini.icon-mile {background: url('../../img/icons/icon-mile@1x.png') 0 0 no-repeat;}
+.oo-icon-mini.icon-year {background: url('../../img/icons/icon-year@1x.png') 0 0 no-repeat;}
+.oo-icon-mini.icon-gear {background: url('../../img/icons/icon-gear@1x.png') 0 0 no-repeat;}
+.oo-icon-mini.icon-engine {background: url('../../img/icons/icon-engine@1x.png') 0 0 no-repeat;}
+.oo-icon-mini.icon-fuel {background: url('../../img/icons/icon-fuel@1x.png') 0 0 no-repeat;}
+.oo-icon-mini.icon-colour {background: url('../../img/icons/icon-colour@1x.png') 0 0 no-repeat;}
+.oo-icon-mini.icon-location {background: url('../../img/icons/icon_location@1x.png') 0 0 no-repeat;}
+.oo-icon-mini.icon-compare {background: url('../../img/icons/icon-compare@1x.png') 0 0 no-repeat;width:29px;height:15px;}
+
+.txt-found-number2 .oo-icon {display: block;width: 33px;height: 20px;text-indent: -9999px;float: left;position:relative;top:5px; margin-right: 10px;}
+.txt-found-number2 .oo-icon.icon-mileage {background: url('../../img/icon-mileage@1x.png') 0 0 no-repeat;}

@@ -1,0 +1,126 @@
+table .car-desc {
+	padding-left: 20px;
+}
+.file-preview-image {
+	height: 120px;
+}
+.affix {
+  z-index: 10;
+}
+.page-title,
+.page-title.affix
+{
+  background: #fff;
+  width: 700px;
+  z-index: 10;
+  top: 0;
+  /*border-bottom: solid #ccc 2px;*/
+  margin-bottom: 20px;
+}
+
+.open > .dropdown-menu {
+  z-index: 10;
+}
+
+/* For tags */
+.tt-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.tt-suggestion > p {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.tt-suggestion > p:hover,
+.tt-suggestion > p:focus,
+.tt-suggestion.tt-cursor p {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca;
+}
+.bootstrap-tagsinput {
+  width: 100%;
+}
+/* For tags */
+
+/* Ajax upload */
+.template-upload .name {
+    max-width: 260px;
+    overflow: auto;
+}
+
+
+.gallery-listing {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gallery-listing li {
+    min-height: 200px;
+    max-height: 200px;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    padding: 10px 0;
+    margin: 0px;
+}
+.gallery-listing li.active {
+    min-height: 200px;
+    max-height: 200px;
+  background-color: #eee;
+  border: solid 1px #ddd;
+
+}
+
+.gallery-listing li.template-upload
+{
+  padding: 14px;
+  background: #eee;
+  border-top: solid 1px #888;
+}
+
+.btn-close-modal {
+background: red;
+width: 28px;
+height: 28px;
+text-align: center;
+position: absolute;
+right: -10px;
+top: -10px;
+color: #fff;
+font-size: 25px;
+border-radius: 50%;
+border: solid 2px;
+line-height: 22px;
+cursor: pointer;
+-webkit-box-shadow: 0 1px 14px rgba(0, 0, 0, 0.5);
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+font-family: sans-serif !important;
+}
+.btn-close-modal:hover{
+   color: #fff;
+   text-decoration: none;
+}

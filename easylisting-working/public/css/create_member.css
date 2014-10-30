@@ -1,0 +1,163 @@
+
+.search-car-by{
+  padding: 0 0 5px 0;
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.44);
+  border-radius: 6px;
+  background-color: #f8f3f3;
+  position: relative;
+}
+.search-car-by .title {
+  /*border: none;*/
+  padding: 10px;
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: #a0c233;
+  color: #ffffff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.submit-pricing {
+    border: 2px solid #f3f3f3;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+.submit-pricing table {
+    margin-bottom: 0;
+}
+.submit-pricing table thead tr th {
+    border: none;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 0;
+    width: 25%;
+    vertical-align: middle;
+}
+.submit-pricing table thead tr th.title {
+    color: #1396e2;
+    font-size: 24px;
+    text-align: center;
+}
+.submit-pricing table tbody tr td {
+    border: none;
+    border-top: 2px solid #f3f3f3;
+    font-size: 12px;
+    width: 25%;
+    vertical-align: middle;
+    padding: 10px 0;
+    text-align: center;
+}
+.submit-pricing table tbody tr td:first-child {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6;
+    text-align: left;
+}
+.submit-pricing table tbody tr td.not-available {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
+}
+.submit-pricing table tbody tr td.available {
+    color: #1396e2;
+}
+.submit-pricing table tbody tr.buttons {
+    padding-bottom: 0;
+}
+.submit-pricing table tbody tr.buttons td {
+    border: none;
+}
+.submit-pricing table tbody tr.buttons td:after {
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'fontawesome';
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-transform: none;
+    color: #5a5a5a;
+    content: "\f05d";
+    display: none;
+    font-size: 20px;
+}
+.submit-pricing table tbody tr.buttons td.package-selected:after {
+    display: inline-block;
+}
+.submit-pricing table tbody tr.buttons td.package-selected .btn {
+    display: none;
+}
+.submit-pricing table tbody tr.prices td {
+    border: none;
+    color: #073855;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.submit-step {
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+}
+.submit-step .step-number {
+    background-color: #1ca5ba;
+    color: #fff;
+    height: 35px;
+    left: 0;
+    width: 35px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 35px;
+}
+.submit-step .step-number:after {
+    bottom: -7px;
+    content: "";
+    height: 0px;
+    border-style: solid;
+    border-width: 0px 10px 10px 10px;
+    border-color: transparent transparent transparent #1ca5ba;
+    position: absolute;
+    left: 0;
+    width: 0px;
+}
+.submit-step .description h4 {
+    color: #2a2a2a;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.submit-features {
+    list-style: none;
+    padding-left: 0;
+}
+.submit-features li {
+    display: inline-block;
+    width: 33%;
+}
+.submit-features li label {
+    font-weight: normal;
+}
+
+#submit-map {
+    height: 320px;
+    width: 100%;
+}
+
+.gallery-listing {
+    border: dashed 4px #D6D6D6;
+    display: block;
+     min-height: 190px;
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+
+.select2-choices {
+    min-width: 220px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+color: #ffffff;
+background-color: #1ca5ba;
+}
